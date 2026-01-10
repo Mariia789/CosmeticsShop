@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Магазин косметики</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>Каталог товарів</h1>
+	<nav>
+			
+			<ul class="nav-list">
+				
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="about.html">Про проєкт</a></li>
+			</ul>
+		</nav>
+
+	<div id="cart-info" class="cart-info">Товарів у кошику: 0</div>
+	<button id="clear-cart-btn" class="clear-cart-btn">Очистити кошик</button>
+
+	<div class="filters">
+		<input type="text" id="search-input" placeholder="Пошук товару">
+		
+		<select id="category-filter">
+			<option value="All">Всі категорії</option>
+			<option value="Lips">Губи</option>
+			<option value="Eyes">Очі</option>
+			<option value="Face">Обличчя</option>
+		</select>
+
+		<input type="number" id="min-price-input" placeholder="Мінімальна ціна">
+
+		<button id="search-btn">Пошук</button>
+	</div>
+</header>
+
+<main>
+	<div id="results-info" class="results-info"></div>
+	<div id="products-container" class="products-container"></div>
+</main>
+
+
+
+<footer>
+	<p>2025. Створено на курсі WEB PRO</p>
+</footer>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
