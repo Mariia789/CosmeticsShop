@@ -229,7 +229,7 @@ footer{
 }
 
 .welcome-block{
-    background: linear-gradient(135deg, #fde2ec, #fce4f0);
+    background: linear-gradient(90deg, #333333, #b56c8f);
     border-radius: 20px;
     padding: 60px 30px;
     margin: 50px auto;
@@ -246,13 +246,13 @@ footer{
 
 .welcome-content h2{
     font-size: 36px;
-    color: #333;
+    color: white;
     margin-bottom: 20px;
 }
 
 .welcome-content p{
     font-size: 20px;
-    color: #555;
+    color: whitesmoke;
     margin-bottom: 30px;
 }
 
@@ -346,3 +346,57 @@ footer{
 .register-form button:hover{
     opacity: 0.9;
 }
+
+.about{
+	 background: linear-gradient(90deg, #333333, #b56c8f);
+    border-radius: 20px;
+    padding: 60px 30px;
+    margin: 50px auto;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about:hover{
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.about h2{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+   
+}
+
+.abt{
+	text-align: center;
+	font-size: 35px;
+}
+
+.list{
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+
+}
+
+.beauty{
+	 background: linear-gradient(90deg, #333333, #b56c8f);
+    border-radius: 20px;
+    padding: 60px 30px;
+    margin: 50px auto;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+    font-size: 20px;
+}
+
+.beauty:hover{
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
