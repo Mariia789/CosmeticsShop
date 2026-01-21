@@ -229,7 +229,7 @@ footer{
 }
 
 .welcome-block{
-    background: linear-gradient(90deg, #333333, #b56c8f);
+    background: linear-gradient(90deg,  #b56c8f, #333333);
     border-radius: 20px;
     padding: 60px 30px;
     margin: 50px auto;
@@ -337,7 +337,7 @@ footer{
     padding: 12px;
     border: none;
     border-radius: 12px;
-    background: linear-gradient(90deg, #333, #b56c8f);
+    background: linear-gradient(90deg, #b56c8f, #333);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -363,17 +363,54 @@ footer{
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
 
-.about h2{
-    font-size: 25px;
-    color: white;
-    margin-bottom: 20px;
-   
+.about-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
-.abt{
+.about {
+	width: 300px;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+	background: linear-gradient(90deg, #b56c8f, #333333);
+	border-radius: 15px;
+	display: flex;
+	align-items: center;      
+	justify-content: center;  
+	text-align: center;
+
+}
+
+
+
+
+.abt1{
 	text-align: center;
 	font-size: 35px;
 }
+
+.abt{
+	 background: linear-gradient(90deg, #333333, #b56c8f);
+    border-radius: 20px;
+    padding: 60px 30px;
+    margin: 50px auto;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+    font-size: 20px;
+}
+
+.abt:hover{
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+
+
 
 .list{
 	text-align: center;
