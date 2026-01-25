@@ -3,6 +3,7 @@
     id: 1,
     title: "Lipstick",
     price: 500,
+    image: "https://wwd.com/wp-content/uploads/2024/08/Nars-Best-Red-Lipsticks.jpg?w=1000",
     category: "Lips",
     for_lips: true,
     for_eyes: false,
@@ -18,6 +19,7 @@
     id: 2,
     title: "Mascara",
     price: 399,
+    image: "https://cdn.salla.sa/xAWDQP/3b0e2053-d5f7-4bba-a83a-5c8602ab67c8-1000x1000-dvLaxSgI6VvkmFJUnf56lpNPDgsiodfYHH5r4aIa.png",
     category: "Eyes",
     for_lips: false,
     for_eyes: true,
@@ -33,6 +35,7 @@
     id: 3,
     title: "Face Powder",
     price: 349,
+    image: "https://u.makeup.com.ua/v/vp/vpgorswfclka.jpg",
     category: "Face",
     for_lips: false,
     for_eyes: false,
@@ -48,6 +51,7 @@
     id: 4,
     title: "Lip Gloss",
     price: 250,
+    image: "https://lip.com.ua/files/products/s2835155-main-zoom.1000x.webp",
     category: "Lips",
     for_lips: true,
     for_eyes: false,
@@ -63,6 +67,7 @@
     id: 5,
     title: "Eyebrow Pencil",
     price: 199,
+    image: "https://images.prom.ua/4383278581_w640_h640_4383278581.jpg",
     category: "Eyes",
     for_lips: false,
     for_eyes: true,
@@ -78,6 +83,7 @@
     id: 6,
     title: "BB Cream",
     price: 420,
+    image: "https://pwa-api.eva.ua/img/0/0/source//7/7/777415_1_1728552326.jpg",
     category: "Face",
     for_lips: false,
     for_eyes: false,
@@ -92,6 +98,7 @@
   {
     id: 7,
     title: "Eyeliner",
+    image: "https://media-cdn.oriflame.com/productImage?externalMediaId=product-management-media%2FProducts%2F42769%2F42769_1.png&MediaId=13785347&Version=1",
     price: 280,
     category: "Eyes",
     for_lips: false,
@@ -108,6 +115,7 @@
     id: 8,
     title: "Blush",
     price: 330,
+    image: "https://m.media-amazon.com/images/I/51LY8zWWFdL.jpg",
     category: "Face",
     for_lips: false,
     for_eyes: false,
@@ -123,6 +131,7 @@
     id: 9,
     title: "Matte Lipstick",
     price: 550,
+    image: "https://glowbeauty.com.ua/image/cache/catalog/glowbeauty/40564-Laura-Mercier-143-Nude-Sateen-3.8g/40564-1-Laura-Mercier-143-Nude-Sateen-3.8g-auto_width_1000.PNG",
     category: "Lips",
     for_lips: true,
     for_eyes: false,
@@ -138,6 +147,7 @@
     id: 10,
     title: "Highlighter",
     price: 470,
+    image: "https://discountstore.pk/cdn/shop/files/81qGMvbrBkL_1200x.jpg?v=1724768405",
     category: "Face",
     for_lips: false,
     for_eyes: true,
@@ -205,6 +215,7 @@ function renderProducts(productsArray) {
     card.classList.add("product-card");
 
     card.innerHTML = `
+    <img src="${product.image}" class="product-img">
       <h3>${product.title}</h3>
       <p class="products-category">Категорія: ${product.category}</p>
       <p class="products-description">${product.description}</p>
