@@ -68,7 +68,7 @@
     title: "Eyebrow Pencil",
     price: 199,
     image: "https://images.prom.ua/4383278581_w640_h640_4383278581.jpg",
-    category: "Eyes",
+    category: "Face",
     for_lips: false,
     for_eyes: true,
     for_face: false,
